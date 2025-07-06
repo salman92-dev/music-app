@@ -29,8 +29,8 @@ const Home = () => {
         {/* Continue Button */}
         <div className="w-full mt-8">
           <button
-            className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 text-white py-3 rounded-full font-bold text-base"
-          >
+            className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 text-white py-3 rounded-full font-bold text-base cursor-pointer"
+          onClick={()=> window.location.href = "/"}>
             Continue
           </button>
         </div>
