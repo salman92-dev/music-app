@@ -14,10 +14,10 @@ const Home = () => {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-x-0 bottom-0 h-86 flex flex-col justify-end px-5 pb-10 pt-24 gradient">
+      <div className="absolute inset-x-0 bottom-0 h-86 flex flex-col justify-end  pb-10 pt-24 gradient">
         
         {/* Text Content */}
-        <div className="text-center mb-6">
+        <div className="text-center mb-6 px-5">
           <h1 className="text-white text-3xl font-[900] mb-3 leading-snug px-2">
             Everything you need to edit like a pro
           </h1>
