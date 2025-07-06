@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div className="relative w-full h-[100dvh] overflow-hidden">
       
-      {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-[50%_-3rem]"
         src="/videobg.mp4"
@@ -12,12 +11,9 @@ const Home = () => {
         muted
         loop
       />
+      <div className="absolute inset-x-0 bottom-0 h-86 flex flex-col justify-end px-5 pb-10 pt-24 gradient">
 
-      {/* Gradient Overlay */}
-      <div className="absolute inset-x-0 bottom-0 h-86 flex flex-col justify-end  pb-10 pt-24 gradient">
-        
-        {/* Text Content */}
-        <div className="text-center mb-6 px-5">
+        <div className="text-center mb-6">
           <h1 className="text-white text-3xl font-[900] mb-3 leading-snug px-2">
             Everything you need to edit like a pro
           </h1>
@@ -26,7 +22,6 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Continue Button */}
         <div className="w-full mt-8">
           <button
             className="w-full bg-gradient-to-r from-cyan-200 to-blue-500 text-white py-3 rounded-full font-bold text-base cursor-pointer"
