@@ -6,7 +6,7 @@ const Home = () => {
       
       {/* Background Video */}
       <video
-        className="absolute inset-0 w-full h-full object-[center_top]"
+        className="absolute inset-0 w-full h-full object-[50%_-3rem]"
         src="/videobg.mp4"
         autoPlay
         muted
@@ -14,7 +14,7 @@ const Home = () => {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-x-0 bottom-0 h-72 flex flex-col justify-end px-5 pb-10 pt-24 gradient">
+      <div className="absolute inset-x-0 bottom-0 h-86 flex flex-col justify-end px-5 pb-10 pt-24 gradient">
         
         {/* Text Content */}
         <div className="text-center mb-6">
@@ -29,7 +29,7 @@ const Home = () => {
         {/* Continue Button */}
         <div className="w-full mt-8">
           <button
-            className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 text-white py-3 rounded-full font-bold text-base cursor-pointer"
+            className="w-full bg-gradient-to-r from-cyan-200 to-blue-500 text-white py-3 rounded-full font-bold text-base cursor-pointer"
           onClick={()=> window.location.href = "/"}>
             Continue
           </button>
